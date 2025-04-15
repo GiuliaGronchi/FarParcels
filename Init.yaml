@@ -1,0 +1,16 @@
+npart: 1000
+init_lat: 41.1 # latitude of the spill
+init_lon: 18.8 # longitude of the spill
+Dlat_plume: -120 # m
+Dlon_plume: 300 # m
+final_radius: 0.0027 # degrees
+init_depth: 534.0 # m
+release_delay: 0 # days
+sim_runtime: 12 #hours
+sim_dt: 5 # min
+output_dt: 15 # min
+wbuoy_data_path: "./w_buoy.csv"
+ocean_data_path: "./data/Medsea_native/2012/"
+parcels_data_path: "./parcels.zarr"
+
+
