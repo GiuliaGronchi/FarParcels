@@ -1,4 +1,4 @@
-npart: 1000
+npart: 2500
 init_lat: 41.1 # latitude of the spill
 init_lon: 18.8 # longitude of the spill
 Dlat_plume: -120 # m
