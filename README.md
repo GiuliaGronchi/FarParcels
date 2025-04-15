@@ -25,7 +25,7 @@ In _Init.yaml_ we also have other settings:
 - output time-interval
 
 
-Then you can run _FarParcels.ipynb_ and see all these things happening!
+Then, you can run _FarParcels.ipynb_ and see the following steps going on:
 
 1 - define output folder & import ocean currents data ( on native C grid ) from local directory, which defines a FieldSet, together with the sub-grid diffusion constants Kv and Kh
 

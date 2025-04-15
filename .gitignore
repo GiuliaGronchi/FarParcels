@@ -1,1 +1,4 @@
-parcels.zarr
+*.zarr/
+*.zarr
+
+data/
