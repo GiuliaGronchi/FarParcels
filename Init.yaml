@@ -5,6 +5,9 @@ Dlat_plume: -120 # m
 Dlon_plume: 300 # m
 final_radius: 0.0027 # degrees
 init_depth: 534.0 # m
+oil_density: 891 # kg/m3
+nozzle_diameter: 0.1 # m
+release_vel: 2 # m/s
 release_delay: 0 # days
 sim_runtime: 12 #hours
 sim_dt: 5 # min
