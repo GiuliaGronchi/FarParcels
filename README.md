@@ -95,6 +95,11 @@ Run the `FarParcels.ipynb` notebook to perform the following steps:
 
 ### 3\. Visualization
 
+<center>
+<img src="/parcels.zarr/PLOTS/OUT2012-09-01_N2500_10h00min.png" width="400">
+
+<center>
+
 The `Visuals.ipynb` notebook provides tools to visualize the results of the transport experiment. It generates plots showing the particle transport over time from two different perspectives:
 
   * **Lat-Lon View:** Displays the horizontal movement of particles on a map, with the background showing the intensity of ocean currents (u and v components). The color of each particle represents its depth.
