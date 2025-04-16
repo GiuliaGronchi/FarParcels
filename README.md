@@ -59,11 +59,11 @@ Running _Visuals.ipynb_ you can see the particle transport in time from two pers
 - a Lat-Lon view with u-v intensity field, where parcels color represent depth
 
 <center>
-<img src="/parcels.zarr/PLOTS/2012-09-01_N2500_00h00min.png" width="600">
-<img src="/parcels.zarr/PLOTS/2012-09-01_N2500_00h15min.png" width="600">
-<img src="/parcels.zarr/PLOTS/2012-09-01_N2500_00h30min.png" width="600">
-<img src="/parcels.zarr/PLOTS/2012-09-01_N2500_01h00min.png" width="600">
-<img src="/parcels.zarr/PLOTS/2012-09-01_N2500_02h00min.png" width="600">
+<img src="/parcels.zarr/PLOTS/2012-09-01_N2500_00h00min.png" width="300">
+<img src="/parcels.zarr/PLOTS/2012-09-01_N2500_00h15min.png" width="300">
+<img src="/parcels.zarr/PLOTS/2012-09-01_N2500_00h30min.png" width="300">
+<img src="/parcels.zarr/PLOTS/2012-09-01_N2500_01h00min.png" width="300">
+<img src="/parcels.zarr/PLOTS/2012-09-01_N2500_02h00min.png" width="300">
   
 </center>
 
