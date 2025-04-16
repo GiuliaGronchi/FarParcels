@@ -1,7 +1,9 @@
 
-## Far Parcels
+# Far-field
 
 At the end state of the near-field, a far-field motion takes place. Here, oil parcels are under 3D advection-diffusion by ocean currents and move independently. Another consistent characteristics is the vertical rising induced by oil buoyancy. This is very dependent on size, as larger particles have greater buoyancy with respect to smaller ones.
+
+### Preconfiguration of oil parcels
 
 A representative sample of oil particles is here modelled. Given release and ambient conditions, a likely parcel-size distribution is built (on a log-normal assumption) and size-corresponding buoyant velocity is calculated from a drag-buoyancy balance.
 
@@ -15,6 +17,20 @@ Input values:
 - number of numerical oil 'parcels' 
 
 and run _WbuoySize.ipynb_ to obtain PDF of oil parcels size and respective vertical buoyant velocity.
+
+A typical size-PDF is
+
+<center>
+<img src="/size_distr_N2500.png" width="600">
+</center>
+
+with vertical buoyant velocity
+
+
+
+
+
+### Transport experiment
 
 In _Init.yaml_ we also the settings for the transport experiment:
 
@@ -38,7 +54,17 @@ Run _FarParcels.ipynb_ to do the following:
 5 - RUN the transport simulation
 
 
-In _Visuals.ipynb_ you can visualize the particle transport from two different perspectives:
+In _Visuals.ipynb_ you can visualize the particle transport in time from two perspectives:
 
 - a Lat-Lon view with u-v intensity field, where parcels color represent depth
+
+<center>
+<img src="/parcels.zarr/PLOTS/2012-09-01_N2500_00h15min.png" width="600">
+</center>
+
+
 - a Depth view, with rising oil particles, where parcels color represents vertical velocity
+
+<center>
+<img src="/parcels.zarr/PLOTS/Depth_2012-09-01_N2500_00h15min.png" width="600">
+</center>
