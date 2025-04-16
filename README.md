@@ -1,16 +1,12 @@
-
 # Far-field
 
-At the end state of the near-field, a far-field motion takes place. Here, oil parcels are under 3D advection-diffusion by ocean currents and move independently. Another consistent characteristics is the vertical rising induced by oil buoyancy. This is very dependent on size, as larger particles have greater buoyancy with respect to smaller ones.
+At the end state of near-field, a far-field motion takes place. Here, oil parcels are under 3D advection-diffusion by ocean currents and move independently. Another consistent characteristics is the vertical rising induced by oil buoyancy. This is very dependent on size, as larger particles have greater buoyancy with respect to smaller ones.
 
 ### Preconfiguration of oil parcels
 
 A representative sample of oil particles is here modelled. Given release and ambient conditions, a likely parcel-size distribution is built (on a log-normal assumption) and size-corresponding buoyant velocity is calculated from a drag-buoyancy balance.
 
-Just insert the initial conditions of the Farfield simulation in _Init.yaml_ :
-
-Input values:
-
+Just insert the initial conditions in _Init.yaml_ :
 - oil density
 - nozzle diameter
 - release vertical velocity
@@ -26,13 +22,15 @@ A typical size-PDF is
 
 with vertical buoyant velocity
 
-
+<center>
+<img src="/buoyant_velocities.png" width="600">
+</center>
 
 
 
 ### Transport experiment
 
-In _Init.yaml_ we also the settings for the transport experiment:
+In _Init.yaml_ are also the settings for the transport experiment:
 
 - initial lat and lon (from near-field end state)
 - near-field plume dimension and intrusive depth (end of near-field)
@@ -54,17 +52,28 @@ Run _FarParcels.ipynb_ to do the following:
 5 - RUN the transport simulation
 
 
-In _Visuals.ipynb_ you can visualize the particle transport in time from two perspectives:
+### Visualization
+
+Running _Visuals.ipynb_ you can see the particle transport in time from two perspectives:
 
 - a Lat-Lon view with u-v intensity field, where parcels color represent depth
 
 <center>
+<img src="/parcels.zarr/PLOTS/2012-09-01_N2500_00h00min.png" width="600">
 <img src="/parcels.zarr/PLOTS/2012-09-01_N2500_00h15min.png" width="600">
+<img src="/parcels.zarr/PLOTS/2012-09-01_N2500_00h30min.png" width="600">
+<img src="/parcels.zarr/PLOTS/2012-09-01_N2500_01h00min.png" width="600">
+<img src="/parcels.zarr/PLOTS/2012-09-01_N2500_02h00min.png" width="600">
+  
 </center>
 
 
 - a Depth view, with rising oil particles, where parcels color represents vertical velocity
 
 <center>
+<img src="/parcels.zarr/PLOTS/Depth_2012-09-01_N2500_00h00min.png" width="600">
 <img src="/parcels.zarr/PLOTS/Depth_2012-09-01_N2500_00h15min.png" width="600">
+<img src="/parcels.zarr/PLOTS/Depth_2012-09-01_N2500_00h30min.png" width="600">
+<img src="/parcels.zarr/PLOTS/Depth_2012-09-01_N2500_01h00min.png" width="600">
+<img src="/parcels.zarr/PLOTS/Depth_2012-09-01_N2500_02h00min.png" width="600">
 </center>
