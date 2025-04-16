@@ -1,10 +1,17 @@
 # Far-field
 
-At the end state of near-field, a far-field motion takes place. Here, oil parcels are under 3D advection-diffusion by ocean currents and move independently. Another consistent characteristics is the vertical rising induced by oil buoyancy. This is very dependent on size, as larger particles have greater buoyancy with respect to smaller ones.
+At the end of the near-field stage, a far-field motion takes place. Here, oil parcels move independently under 3D advection-diffusion driven by ocean currents. Another consistent characteristic is the vertical rising induced by oil buoyancy, which strongly depends on particle size—larger particles have greater buoyancy compared to smaller ones.
+
+This project uses [OceanParcels](https://oceanparcels.org/), an open-source framework for Lagrangian ocean analysis. OceanParcels is developed and maintained by the OceanParcels team, and its source code is available at [github.com/OceanParcels/parcels](https://github.com/OceanParcels/parcels).
+
+
+### Create parcels environment
+
+    conda env create -n parcels environment.yml
 
 ### Preconfiguration of oil parcels
 
-A representative sample of oil particles is here modelled. Given release and ambient conditions, a likely parcel-size distribution is built (on a log-normal assumption) and size-corresponding buoyant velocity is calculated from a drag-buoyancy balance.
+A representative sample of oil particles is here created. Given release and ambient conditions, a likely parcel-size distribution is built (on a log-normal assumption) and size-corresponding buoyant velocity is calculated from a drag-buoyancy balance _(Zheng and Yapa, 2000)_.
 
 Just insert the initial conditions in _Init.yaml_ :
 - oil density
