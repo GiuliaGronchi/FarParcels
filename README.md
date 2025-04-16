@@ -125,7 +125,7 @@ The `Visuals.ipynb` notebook provides tools to visualize the results of the tran
     <img src="/parcels.zarr/PLOTS/Depth_2012-09-01_N2500_00h30min.png" width="800">
     <img src="/parcels.zarr/PLOTS/Depth_2012-09-01_N2500_01h00min.png" width="800">
     <img src="/parcels.zarr/PLOTS/Depth_2012-09-01_N2500_02h00min.png" width="800">
-    <img src="/parcels.zarr/PLOTS/Depth_2012-09-01_N2500_02h00min.png" width="800">
+    <img src="/parcels.zarr/PLOTS/Depth_2012-09-01_N2500_10h00min.png" width="800">
     </center>
     
 
