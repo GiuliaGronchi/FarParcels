@@ -60,16 +60,16 @@ Running _Visuals.ipynb_ you can see the particle transport in time from two pers
 
 <center>
   <div>
-    <img src="/parcels.zarr/PLOTS/2012-09-01_N2500_00h00min.png" width="500">
-    <img src="/parcels.zarr/PLOTS/2012-09-01_N2500_00h15min.png" width="500">
+    <img src="/parcels.zarr/PLOTS/2012-09-01_N2500_00h00min.png" width="400">
+    <img src="/parcels.zarr/PLOTS/2012-09-01_N2500_00h15min.png" width="400">
   </div>
   <div>
-    <img src="/parcels.zarr/PLOTS/2012-09-01_N2500_00h30min.png" width="500">
-    <img src="/parcels.zarr/PLOTS/2012-09-01_N2500_01h00min.png" width="500">
+    <img src="/parcels.zarr/PLOTS/2012-09-01_N2500_00h30min.png" width="400">
+    <img src="/parcels.zarr/PLOTS/2012-09-01_N2500_01h00min.png" width="400">
   </div>
   <div>
-    <img src="/parcels.zarr/PLOTS/2012-09-01_N2500_02h00min.png" width="500">
-    <img src="/parcels.zarr/PLOTS/2012-09-01_N2500_10h00min.png" width="500">
+    <img src="/parcels.zarr/PLOTS/2012-09-01_N2500_02h00min.png" width="400">
+    <img src="/parcels.zarr/PLOTS/2012-09-01_N2500_10h00min.png" width="400">
   </div>
 </center>
 
