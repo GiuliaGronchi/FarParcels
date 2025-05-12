@@ -14,15 +14,7 @@ This repository provides the necessary scripts and configuration files to:
 2.  **Conduct transport experiments:** Simulate the advection and diffusion of oil parcels under the influence of ocean currents, incorporating buoyancy effects.
 3.  **Visualize the results:** Display the temporal evolution of particle transport in both horizontal and vertical perspectives.
 
-## Technology Stack
 
-This project leverages the following open-source tools:
-
-* **[OceanParcels](https://oceanparcels.org/):** A powerful Python framework designed for Lagrangian ocean analysis.
-* **Python:** The primary programming language used for scripting and analysis.
-* **[conda](https://conda.io/):** An open-source package management system for environment management.
-* **YAML:** Used for configuration files.
-* **Jupyter Notebook:** Provides an interactive environment for code execution and visualization.
 
 ## Setup and Installation
 
@@ -138,6 +130,3 @@ The `Visuals.ipynb` notebook provides tools to visualize the results of the tran
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-## Acknowledgements
-
-We gratefully acknowledge the developers and maintainers of the [OceanParcels](https://oceanparcels.org/) framework for providing this invaluable tool for oceanographic research.
