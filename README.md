@@ -53,7 +53,7 @@ conda activate parcels
 
 The `WbuoySize.ipynb` notebook generates a size distribution and calculates vertical velocities for each parcel based on input parameters in `Init.yaml`. The model uses a log-normal distribution (Branvik et al., 2013; Li et al., 2017) and buoyancy-drag physics (Zheng & Yapa, 2000).
 
-**Key parameters in `Init.yaml`:**
+**Configure key parameters in `Init.yaml`:**
 
 - `oil_density`: Oil density (kg/m³)  
 - `nozzle_diameter`: Release nozzle diameter (m)  
