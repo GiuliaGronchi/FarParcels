@@ -1,4 +1,4 @@
-# Far-field Oil Spill Modeling with OceanParcels
+# Far-field: Subsurface Oil Spill Simulation
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![OceanParcels](https://img.shields.io/badge/Powered%20by-OceanParcels-blue.svg)](https://oceanparcels.org/)
