@@ -6,6 +6,12 @@
 This repository contains a Python-based framework for simulating the **far-field transport** of oil parcels following a subsurface release event.  
 The model uses [OceanParcels](https://oceanparcels.org/) to simulate 3D Lagrangian advection-diffusion dynamics and buoyancy-driven vertical rise, based on particle size distributions generated during the pre-processing phase.
 
+<br>
+
+<img src="/oil_scheme.png" alt="Initial condition" width="800"/>
+
+<br>
+
 ---
 
 ## Overview
