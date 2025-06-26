@@ -138,6 +138,18 @@ Particles are colored by vertical velocity.
 
 ---
 
+## Future Work
+
+Planned developments aim to extend the physical realism and applicability of the model. Key features under consideration include:
+
+1. **Gas Phase Representation**  
+   Many oil spills include a gas fraction released alongside liquid hydrocarbons. The incorporation of gas bubble dynamics—including a representative size distribution and associated buoyant behavior—will enhance the accuracy of plume evolution and far-field dispersion.
+
+2. **Biodegradation Processes**  
+   Microbial degradation of hydrocarbons can alter the size and buoyancy of oil droplets and gas bubbles over time. Integrating biodegradation kinetics will enable more realistic simulations of oil fate and persistence in the water column.
+
+---
+
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
